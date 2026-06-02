@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="distribuim" version="4">
+  <OBJECT>
+    <ID name="distribuim" mc="Standard.Package" uid="cfbf8417-077d-456a-87d2-991f9fbb8d14"/>
+    <PID name="DistribuiM" mc="Standard.Project" uid="323d2ae0-8989-4571-bc02-775b1ffbd2fc"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[distribuim]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Usuário" mc="Standard.Actor" uid="85f9ccf6-3dcf-49aa-9125-584861ea9606"/>
+        <COMPID name="Administrador" mc="Standard.Actor" uid="377829d6-0944-4576-b0fe-76bba36c696e"/>
+        <COMPID name="Cadastrar entrega" mc="Standard.UseCase" uid="d9792bea-9704-4b3c-8fdf-28b81ea2aff6"/>
+        <COMPID name="Cadastrar cliente" mc="Standard.UseCase" uid="db933678-a688-4aba-81ce-31f372ebdf41"/>
+        <COMPID name="Editar dados do cliente" mc="Standard.UseCase" uid="42ca9749-fd3b-4968-85c8-05f386e6db3d"/>
+        <COMPID name="Consultar histórico de entregas" mc="Standard.UseCase" uid="640c864c-773c-463a-9c75-70fbd2e249ea"/>
+        <COMPID name="Cadastrar pagamento do cliente" mc="Standard.UseCase" uid="70052005-e9cd-4638-ad3d-afa18eb61c6c"/>
+        <COMPID name="Consultar dívida e pagamentos do cliente" mc="Standard.UseCase" uid="11194102-c245-442c-97f8-96ed7d95f4c6"/>
+        <COMPID name="Editar entregas" mc="Standard.UseCase" uid="3bb4ff2e-b0ff-44f1-8ffe-549550c81c90"/>
+        <COMPID name="Fazer login" mc="Standard.UseCase" uid="1a61b67b-b683-4572-a98c-768bfd99d937"/>
+        <COMPID name="Agendar entregas" mc="Standard.UseCase" uid="44dbb203-83e0-4276-a327-71dc5b50bc91"/>
+        <COMPID name="Cadastrar login do motorista" mc="Standard.UseCase" uid="4bc34f79-1635-4f96-8e6b-6e0e3e133dfc"/>
+        <COMPID name="Excluir entregas" mc="Standard.UseCase" uid="07a356ba-2eef-48e1-920b-f0a330322fd4"/>
+        <COMPID name="Excluir clientes" mc="Standard.UseCase" uid="92e6cab6-9435-40c8-9894-e6ff4b937438"/>
+        <COMPID name="Consultar entregas e pagamentos de todos os clientes" mc="Standard.UseCase" uid="ba4a6c96-611c-4e88-ad41-821e127333ce"/>
+        <COMPID name="Gerenciar usuários" mc="Standard.UseCase" uid="4da4de76-4cd4-4f20-9336-ed58285bcd09"/>
+        <COMPID name="Consultar relatórios financeiros" mc="Standard.UseCase" uid="b6620e62-caaf-449f-bb9d-339f92a1f054"/>
+        <COMPID name="Alterar permissões" mc="Standard.UseCase" uid="55aa3450-d8be-44e8-8bea-8a8ef0cf67cc"/>
+        <COMPID name="Consultar clientes" mc="Standard.UseCase" uid="5e1bb41a-6f12-46d2-8ce8-ac09d54110ce"/>
+        <COMPID name="Usuário" mc="Standard.Class" uid="6c455dcc-3b0b-49de-8a72-d762d86dbe64"/>
+        <COMPID name="Gerente" mc="Standard.Class" uid="d306ec1f-1a2a-4ff2-b2d5-41a0707ef2af"/>
+        <COMPID name="Motorista" mc="Standard.Class" uid="415bd357-3d24-4a89-a5ba-9c15895557f7"/>
+        <COMPID name="Cliente" mc="Standard.Class" uid="f9ffb463-71fa-42a5-aa27-126fd82a4f48"/>
+        <COMPID name="Entrega" mc="Standard.Class" uid="7f4f1492-8a44-44ec-8d6f-42914a7c82b2"/>
+        <COMPID name="Endereço" mc="Standard.Class" uid="ada6fd6c-89e7-461c-80a1-03923a1c6355"/>
+        <COMPID name="App mobile - Flutter" mc="Standard.Component" uid="d1b29bf6-787f-49a5-9089-f147930bf4bc"/>
+        <COMPID name="Banco local" mc="Standard.Component" uid="23d81a77-28f9-4bc0-a70e-f3ae88bbfc8f"/>
+        <COMPID name="Cloud Firestore" mc="Standard.Component" uid="45dd8e04-fbf9-431e-8355-2f5d00d53c89"/>
+        <COMPID name="Firebase Authentication" mc="Standard.Component" uid="5a07dee1-c97f-4445-b0c7-3f89d0541d8a"/>
+        <COMPID name="Celular" mc="Standard.Node" uid="d7ba79eb-54f9-4fc3-ad3d-fb462f2cb646"/>
+        <COMPID name="Nuvem - Firebase" mc="Standard.Node" uid="aa57d3bf-0b3c-49a3-8e50-3dcf69ebbd5d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de caso de uso" mc="Standard.UseCaseDiagram" uid="40527e6b-c062-44d7-8d58-9084581c6fd9"/>
+        <COMPID name="Diagrama de classe" mc="Standard.ClassDiagram" uid="4df2a638-a78c-4737-af24-0fc33ff0af0a"/>
+        <COMPID name="Diagrama de componentes" mc="Standard.ClassDiagram" uid="2991e081-448a-469e-a50c-3b5a096fc79e"/>
+        <COMPID name="distribuim Deployment diagram" mc="Standard.DeploymentDiagram" uid="800776e5-6868-4042-8a73-c23500907d08"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

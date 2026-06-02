@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DistribuiM" version="4">
+  <OBJECT>
+    <ID name="DistribuiM" mc="Standard.Project" uid="323d2ae0-8989-4571-bc02-775b1ffbd2fc"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[DistribuiM]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="distribuim" mc="Standard.Package" uid="cfbf8417-077d-456a-87d2-991f9fbb8d14"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="DistribuiM" mc="Infrastructure.DiagramSet" uid="3ced9b10-eb87-4eae-b3d0-a55cf6219a8c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

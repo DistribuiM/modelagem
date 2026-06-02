@@ -1,0 +1,229 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Nuvem - Firebase" version="4">
+  <OBJECT>
+    <ID name="Nuvem - Firebase" mc="Standard.Node" uid="aa57d3bf-0b3c-49a3-8e50-3dcf69ebbd5d"/>
+    <PID name="distribuim" mc="Standard.Package" uid="cfbf8417-077d-456a-87d2-991f9fbb8d14"/>
+    <ATTRIBUTES>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Nuvem - Firebase]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="" mc="Standard.BindableInstance" uid="d372b4a3-e8e8-460f-9da4-9b926aac49c4"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Cloud Firestore" mc="Standard.Component" uid="45dd8e04-fbf9-431e-8355-2f5d00d53c89"/>
+            </LINK>
+            <COMP relation="Part">
+              <OBJECT>
+                <ID name="Port" mc="Standard.Port" uid="d6c38353-014e-4be9-b2d7-b0ea98f18670"/>
+                <ATTRIBUTES>
+                  <ATT name="IsBehavior">false</ATT>
+                  <ATT name="IsService">true</ATT>
+                  <ATT name="IsConjugated">false</ATT>
+                  <ATT name="Direction">None</ATT>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[Port]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Required">
+                    <OBJECT>
+                      <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="1b97cd6f-9cc5-40da-92af-657d4c973a19"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="RepresentedFeature">
+                    <REFOBJ>
+                      <ID name="Port" mc="Standard.Port" uid="513e20e5-7f35-4821-9a42-e6de5cfb3a62"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="OwnedNaryEnd">
+                    <OBJECT>
+                      <ID name="" mc="Standard.NaryConnectorEnd" uid="c2f809a0-eb61-4c10-b570-273cb5dcacb0"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLink">
+                          <OBJECT>
+                            <ID name="" mc="Standard.NaryConnector" uid="7d9256cd-48cc-4d44-ada1-db6f100e73fe"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLinkEnd">
+                                <COMPID name="" mc="Standard.NaryConnectorEnd" uid="c2f809a0-eb61-4c10-b570-273cb5dcacb0"/>
+                                <OBJECT>
+                                  <ID name="" mc="Standard.NaryConnectorEnd" uid="bc1e96ba-10f9-405a-836f-7557e7ff5011"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                                    <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="NaryLink">
+                                      <COMPID name="" mc="Standard.NaryConnector" uid="7d9256cd-48cc-4d44-ada1-db6f100e73fe"/>
+                                    </COMP>
+                                    <LINK relation="Provider">
+                                      <REFOBJ>
+                                        <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="510b5a94-4c8d-4c30-9bc7-f0373e987ebe"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Consumer">
+                          <REFOBJ>
+                            <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="1b97cd6f-9cc5-40da-92af-657d4c973a19"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.BindableInstance" uid="70b25d0c-52bb-4bfe-8cb4-704cbd68de60"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Firebase Authentication" mc="Standard.Component" uid="5a07dee1-c97f-4445-b0c7-3f89d0541d8a"/>
+            </LINK>
+            <COMP relation="Part">
+              <OBJECT>
+                <ID name="Port" mc="Standard.Port" uid="c77a84d4-e154-4f40-81e4-d4bdf298b545"/>
+                <ATTRIBUTES>
+                  <ATT name="IsBehavior">false</ATT>
+                  <ATT name="IsService">true</ATT>
+                  <ATT name="IsConjugated">false</ATT>
+                  <ATT name="Direction">None</ATT>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[Port]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Required">
+                    <OBJECT>
+                      <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="bd7bc888-0e0f-480c-925f-7ec6be3d2b18"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="RepresentedFeature">
+                    <REFOBJ>
+                      <ID name="Port" mc="Standard.Port" uid="1861f9c1-06d2-4d45-a73a-f0637efcd023"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="OwnedNaryEnd">
+                    <OBJECT>
+                      <ID name="" mc="Standard.NaryConnectorEnd" uid="41d55df3-3f6e-4a5b-9f76-0d6e86c54f8a"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLink">
+                          <OBJECT>
+                            <ID name="" mc="Standard.NaryConnector" uid="86953184-6826-4e49-a07f-ce80f268d8d4"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLinkEnd">
+                                <COMPID name="" mc="Standard.NaryConnectorEnd" uid="41d55df3-3f6e-4a5b-9f76-0d6e86c54f8a"/>
+                                <OBJECT>
+                                  <ID name="" mc="Standard.NaryConnectorEnd" uid="d90f6c94-08a9-42be-8579-3f85ae13adcf"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                                    <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="NaryLink">
+                                      <COMPID name="" mc="Standard.NaryConnector" uid="86953184-6826-4e49-a07f-ce80f268d8d4"/>
+                                    </COMP>
+                                    <LINK relation="Provider">
+                                      <REFOBJ>
+                                        <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="56929b76-f88c-4678-ad19-07ef5d1074ef"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Consumer">
+                          <REFOBJ>
+                            <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="bd7bc888-0e0f-480c-925f-7ec6be3d2b18"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
